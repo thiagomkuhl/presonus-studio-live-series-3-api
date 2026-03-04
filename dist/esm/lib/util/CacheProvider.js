@@ -1,0 +1,1 @@
+import KVTree from"./KVTree";export default function CacheProvider(fallback){const data=new KVTree;return{set(path,value){return data.register(path,value)},get(path,_default=null){return data.get(path)??fallback?.get(path)??_default},_data:data}}

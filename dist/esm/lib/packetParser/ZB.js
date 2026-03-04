@@ -1,0 +1,1 @@
+import zlib from"node:zlib";import zlibParse from"../util/zlib/zlibUtil";export default function handleZBPacket(data){return parseCompressed(data.slice(4))}export function parseCompressed(data){return zlibParse(zlib.inflateSync(data))}

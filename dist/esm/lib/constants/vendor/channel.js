@@ -1,0 +1,1 @@
+const Channel64S={MONO:"mono",MASTER:"master"};export const Channel={LINE:"line",RETURN:"return",FXRETURN:"fxreturn",TALKBACK:"talkback",AUX:"aux",FX:"fxbus",SUB:"sub",MAIN:"main",DCA:"filtergroup",...Channel64S};

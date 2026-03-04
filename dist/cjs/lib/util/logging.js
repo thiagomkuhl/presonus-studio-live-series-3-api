@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});const _bunyan=/*#__PURE__*/_interop_require_default(require("bunyan"));function _interop_require_default(obj){return obj&&obj.__esModule?obj:{default:obj}}globalThis.logger=_bunyan.default.createLogger({name:"presonus-studiolive-api",level:61});

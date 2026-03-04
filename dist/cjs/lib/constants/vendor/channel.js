@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"Channel",{enumerable:true,get:function(){return Channel}});const Channel64S={MONO:"mono",MASTER:"master"};const Channel={LINE:"line",RETURN:"return",FXRETURN:"fxreturn",TALKBACK:"talkback",AUX:"aux",FX:"fxbus",SUB:"sub",MAIN:"main",DCA:"filtergroup",...Channel64S};

@@ -1,0 +1,1 @@
+export const CHANNEL_PRESETS="presets/channel";export const PROJECTS="presets/proj";export function SCENES_OF(file){return"presets/proj/"+file}

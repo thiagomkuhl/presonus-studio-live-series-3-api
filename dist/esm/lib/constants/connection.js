@@ -1,0 +1,1 @@
+export var ConnectionState=/*#__PURE__*/function(ConnectionState){ConnectionState["error"]="error";ConnectionState["closed"]="closed";ConnectionState["connected"]="connected";ConnectionState["reconnecting"]="reconnecting";return ConnectionState}({});

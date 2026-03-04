@@ -1,0 +1,1 @@
+import{transformersPC}from"../util/transformers";import{valueTransform}from"../util/ValueTransformer";export default function handlePCPacket(data){const idx=data.indexOf(0);if(idx!==-1){const name=data.slice(0,idx).toString();return{name,value:valueTransform(name,data.slice(idx+3),transformersPC)}}else{console.warn("Could parse PC packet",data)}return data}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"default",{enumerable:true,get:function(){return handleJMPacket}});function handleJMPacket(data){return JSON.parse(data.slice(4))}

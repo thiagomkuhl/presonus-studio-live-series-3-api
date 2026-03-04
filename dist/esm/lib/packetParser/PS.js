@@ -1,0 +1,1 @@
+export default function handlePSPacket(data){const idx=data.indexOf(0);if(idx!==-1){return{name:data.slice(0,idx).toString(),value:data.slice(idx+3,-1).toString()}}else{console.warn("Could parse PS packet",data)}return data}

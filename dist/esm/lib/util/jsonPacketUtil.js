@@ -1,0 +1,1 @@
+import{toShort}from"./bufferUtil";export function prependLengthData(buffer){return Buffer.concat([toShort(buffer.length),Buffer.from([0,0]),buffer])}export function jsonStringifyPack(json){return JSON.stringify(json,null," ")}export function JSONtoPacketBuffer(json){return prependLengthData(Buffer.from(jsonStringifyPack(json)))}

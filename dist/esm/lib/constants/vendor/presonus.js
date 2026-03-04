@@ -1,0 +1,1 @@
+export var CByte=/*#__PURE__*/function(CByte){CByte[CByte["A"]=104]="A";CByte[CByte["B"]=101]="B";return CByte}({});export const PacketHeader=Buffer.from([85,67,0,1]);
